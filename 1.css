@@ -119,6 +119,10 @@ li.nav-item {
 @media (max-width: 576px){
 	*{}
 
+h2.tieudecap2.text-sm-left.text-xs-center {
+    margin-top: 30px;
+}
+
 .tt img {
     margin-top: 100px;
 }
@@ -172,4 +176,24 @@ html, body{
     height: 100%;
     background: #e4555b;
     z-index: 1;
+}
+
+.xuong:hover {
+    bottom: 4%;
+}
+
+.xuong:after {content: "";position: absolute;width: 4px;height: 8px;background: white;left: 50%;bottom: 62%;margin-left: -2px;}
+
+.xuong {
+    width: 30px;
+    height: 55px;
+    border: white solid 1px;
+    position: absolute;
+    left: 50%;
+    border-radius: 30px;
+    bottom: 2%;
+    margin-left: -15px;
+    z-index: 2;
+    cursor: pointer;
+    transition: 0.4s;
 }
